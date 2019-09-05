@@ -1,0 +1,309 @@
+		body
+		{
+			font-family: 'Roboto', sans-serif;
+		}
+		a{
+			text-decoration: none;
+		}
+
+
+
+		.header
+		{
+			position: fixed;
+			background: #007765;
+			color: white;
+			width: 100%;
+			display: block;
+			height: 84px;
+
+		}
+
+		.main
+		{
+			/*padding-top: 84px;*/
+		}
+
+		.header > div
+		{
+			width: 1219px;
+			margin: 0 auto;
+			display: table;
+			height: 100%;
+			font-weight: 500;
+			font-size: 24px;
+		}
+
+		.header .logo
+		{
+			width: 190px;
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+		}
+		.header .links
+		{
+			vertical-align: middle;
+			width: 50%;
+			display: table-cell;
+			text-align: right;
+		}
+
+		.header .logo > div
+		{
+			float: left;
+			background: url(../img/logo.svg) no-repeat;
+			width: 190px;
+			height: 45px;
+			cursor: pointer;
+		}
+
+		.header .links a
+		{
+			color: #FFFFFF;			
+	
+		}
+
+		.header .links a:not(:first-child):before
+		{
+			content: "|";
+			color: #FFFFFF;
+			display: inline;
+			padding-left: 8px;
+			padding-right: 8px;			
+	
+		}
+
+
+		
+
+		.clearfix
+		{
+			clear: both;
+		}
+
+
+		.main_img
+		{
+			background: url(../img/main_img.png) no-repeat;
+			height: 403px;
+			font-family: 'Roboto', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 72px;
+			line-height: 84px;
+			text-align: center;
+			color: white;
+			line-height: 403px;
+			background-size: cover;
+
+		}
+		h1
+		{
+			font-family: 'Roboto', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 64px;
+			line-height: 75px;
+			/* identical to box height */
+			text-align: center;
+			color: #007765;
+		}
+
+		.f-content-gray
+		{
+			background: #EEEEEE;
+			padding: 48px 0px 92px 0px;
+		}
+
+		.content
+		{
+			width: 1110px;
+			margin: 0 auto;
+			text-align: justify;
+
+		}
+
+		.content2
+		{
+			margin: 48px auto 92px auto;
+		}
+
+		.content .info
+		{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 32px;
+			line-height: 37px;
+
+			color: #000000;
+
+		}
+
+
+		.content .info p.intro
+		{
+			padding-left: 140px;
+			position: relative;
+		}
+
+
+		.content .info p.intro::before
+		{
+			content: url(../img/intro.svg);
+			width: 115px;
+			height: 115px;
+			position: absolute;
+			color: red;
+			display: block;
+			top: 0px;
+			left: 0px;
+		}
+
+		.main2_img
+		{
+			background: url(../img/main2_img.png) no-repeat;
+			height: 483px;
+			font-family: 'Roboto', sans-serif;
+			font-style: italic;
+			font-weight: 500;
+			font-size: 48px;
+			color: #FFFFFF;
+			background-size: cover;
+			width: 100%;
+			text-align: center;
+
+		}
+
+
+		.main2_img:before {
+		  content: '';
+		  display: inline-block;
+		  height: 100%;
+		  vertical-align: middle;
+		}
+
+		.main2_img > div
+		{
+			
+			width: 100%;
+			height: 100%;
+			display: inline-block;
+  			vertical-align: middle;
+			width: 893px;
+			height: 228px;	
+
+
+		}	
+
+		.footer
+		{
+
+			background: #333333;
+			font-family: 'Roboto', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+
+			color: #FFFFFF;	
+		}	
+		.footer > div
+		{
+			margin: 50px auto;
+			display: inline-block;
+			width: 540px;
+		}
+
+		.persons
+		{
+			padding: 60px 0px 112px 0px;
+			background: #EEEEEE;
+		}
+
+		.persons .content .row .person
+		{
+			display: inline-block;
+			text-align: center;
+			width: 33%;
+		}
+
+
+		.persons .content .row .person .photo
+		{
+			width: 168px;
+			height: 168px;
+			margin: 0 auto;
+			background-size: cover;
+		}
+
+		.persons .content .row .person .name
+		{
+			font-family: 'Roboto', sans-serif;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 28px;
+			/* identical to box height */
+			color: #007765;	
+
+		}
+
+
+
+		.persons .content .row .person .position
+		{
+			font-family: 'Roboto', sans-serif;
+			font-style: italic;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			color: #000000;
+
+		}
+		.persons .content .row:first-of-type
+		{
+			margin-bottom: 83px;
+		}
+
+		.persons .content .row .person .name
+		{
+			margin-top: 8px;
+		}
+
+		.persons .content .row .person .ph1
+		{
+			background: url(../img/ph1.png) no-repeat;
+		}
+
+		.persons .content .row .person .ph2
+		{
+			background: url(../img/ph2.png) no-repeat;
+		}
+
+		.persons .content .row .person .ph3
+		{
+			background: url(../img/ph3.png) no-repeat;
+		}
+
+		.persons .content .row .person .ph4
+		{
+			background: url(../img/ph4.png) no-repeat;
+		}
+
+		.persons .content .row .person .ph5
+		{
+			background: url(../img/ph5.png) no-repeat;
+		}
+
+		.persons .content .row .person .ph6
+		{
+			background: url(../img/ph6.png) no-repeat;
+		}
+
+
+	.problem
+	{
+		background-color: #EEEEEE;
+	}
